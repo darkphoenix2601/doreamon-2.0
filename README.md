@@ -5,4 +5,4 @@
 
 
  ## Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FT5FROCK5T4R%2Fflorenzabot)
+    -[![Deploy To Heroku](https://heroku.com/deploy?template=https://github.com/T5FROCK5T4R/florenzabot)
