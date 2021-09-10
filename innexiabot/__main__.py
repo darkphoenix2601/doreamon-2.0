@@ -464,18 +464,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR INNEXIA DEV'S</b>\n"
+            text=f"<b> CREDIT FOR FLORENZA DEV'S</b>\n"
             f"\nHere Some Developers Helping in Making The Innexia Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴀᴍᴍʏ", url="t.me/useIes"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="ROCKSTAR", url="t.me/T5F_R0CK5T4R"),
+                    InlineKeyboardButton(text="RAPSTAR", url="t.me/owner_of_tsf_rapstar"),
                  ],
                  [
-                    InlineKeyboardButton(text="Iɴꜰɪɴɪᴛʏ", url="t.me/hell_king_infinity"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="ANGAD", url="t.me/Cad_baly"),
+                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/T5F_R0CK5T4R"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -491,8 +491,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+            text=""" Hi..😻 I'm *Florenza*
+                 \nHere is the [🔥Source Code🔥](https://github.com/T5fr0ck5t4r/flozenzabot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
