@@ -69,7 +69,7 @@ RUN git clone -b shiken https://github.com/QueenArzoo/innexiabot /root/innexiabo
 WORKDIR /root/innexiabot
 
 #Copy config file to /root/innexiabot/innexiabot
-COPY ./innexiaBot/sample_config.py ./innexiaBot/config.py* /root/innexiabot/innexiabot/
+COPY ./innexiabot/sample_config.py ./innexiabot/config.py* /root/innexiabot/innexiabot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
