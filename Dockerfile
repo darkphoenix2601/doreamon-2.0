@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/innexiaBot
-RUN git clone -b shiken https://github.com/QueenArzoo/innexiaBot /root/innexiaBot
-WORKDIR /root/innexiaBot
+RUN git clone -b shiken https://github.com/QueenArzoo/innexiabot /root/innexiabot
+WORKDIR /root/innexiabot
 
-#Copy config file to /root/innexiaBot/innexiaBot
-COPY ./innexiaBot/sample_config.py ./innexiaBot/config.py* /root/innexiaBot/innexiaBot/
+#Copy config file to /root/innexiabot/innexiabot
+COPY ./innexiaBot/sample_config.py ./innexiaBot/config.py* /root/innexiabot/innexiabot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","innexiaBot"]
+CMD ["python3","-m","innexiabot"]
