@@ -1,6 +1,6 @@
-from innexiabot.events import register
-from innexiabot import OWNER_ID
-from innexiabot import telethn as tbot
+from innexiaBot.events import register
+from innexiaBot import OWNER_ID
+from innexiaBot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 
@@ -100,11 +100,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "LogoByInnexia.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="💕 Made By @SiderzBot_Support")
+    await tbot.send_file(event.chat_id, fname2, caption="💕 Made By @SiderzBot Support @SiderzChat")
     if os.path.exists(fname2):
-            os.remove(f
+            os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report hhj;@TSF_R0CKSTAR , {e}')
+   await event.reply(f'Error Report @SiderzChat, {e}')
 
 
 
@@ -130,7 +130,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./innexiabot/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./innexiaBot/resources/Maghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -140,11 +140,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
     fname2 = "LogoByInnexia.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @Florenza_bot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @florenza_Bot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @TSF_R0CKSTAR , {e}')
+   await event.reply(f'Error Report @SiderzChat, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
@@ -154,6 +154,5 @@ file_helpo = file_help.replace("_", " ")
 __help__ = """
  ❍ /logo text :  Create your logo with your name
  ❍ /wlogo text :  Create your logo with your name
-
  """
 __mod_name__ = "Logo"
