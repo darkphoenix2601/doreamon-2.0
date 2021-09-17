@@ -79,6 +79,11 @@
          "required": true,
          "value": ""
       },
+      "DATABASE_URL": {
+         "description": "Required for database .",
+         "required": true,
+         "value": ""
+      },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
          "required": false
