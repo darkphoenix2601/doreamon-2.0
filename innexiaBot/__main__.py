@@ -93,7 +93,7 @@ buttons = [
     [
         InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Florenza_support"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/TSFNETWORK"
+            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/Florenza_updates"
         ),
     ],
     [
@@ -104,7 +104,7 @@ buttons = [
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ**
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ[💓](https://telegra.ph/file/16bf7f2e7ca1543cb7694.jpg)"""
+`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ`"""
 
 
 
