@@ -75,25 +75,25 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [ꜰʟᴏʀᴇɴᴢᴀ](https://telegra.ph/file/16bf7f2e7ca1543cb7694.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
+`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [Doreamon](https://telegra.ph/file/253bde1d07b5b6f04dc70.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
 `ɪ ᴀᴍ ᴠᴇʀʏ ꜰᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ᴀ ᴏᴡɴᴇʀ ᴡɪʟʟ ʟᴏᴏᴋ ꜰᴏʀ  ꜰɪʟᴛᴇʀ ,ᴡᴀʀɴ ꜱʏꜱᴛᴇᴍ,ꜱᴀᴠᴇ ɴᴏᴛᴇꜱ, ꜰʟᴏᴏᴅ, ʙᴀɴ ᴀɴᴅ ᴍᴏʀᴇ!`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ꜰʟᴏʀᴇɴᴢᴀ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/Florenza_bot?startgroup=true"),
+            text="💕 ᴀᴅᴅ Doreamon ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/Florenza_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔥ᴅᴇᴠꜱ", url=f"https://t.me/Florenza_Dev"),
+        InlineKeyboardButton(text="🔥ᴅᴇᴠꜱ", url=f"https://t.me/left_tg_1"),
         InlineKeyboardButton(
-            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url=f"https://telegra.ph/𝗕ooo-09-17-2"
+            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url=f"https://telegra.ph/Doreamon-Bot-09-10"
         ),
     ],
     [
-        InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Florenza_support"),
+        InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/phoenix_music_suportt"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/Florenza_updates"
+            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/phoenix_music_new"
         ),
     ],
     [
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Florenza_support")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/phoenix_music_suport")]]
             ),
         )
         
@@ -366,10 +366,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Florenza_support"
+                            text="Bᴜɢ'ꜱ", url="https://t.me/phoenix_music_suport"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/Florenza_updates"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/phoenix_music_new"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -452,8 +452,8 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Fᴇᴅ", url="t.me/FlorenzaFedChat"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Florenza_support"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/florenza_updates"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/phoenix_music_suport"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/phoenix_music_new"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -470,12 +470,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ROCKSTAR", url="t.me/T5F_R0CK5T4R"),
-                    InlineKeyboardButton(text="RAPSTAR", url="t.me/owner_of_tsf_rapstar"),
+                    InlineKeyboardButton(text="BAD BOY", url="https://t.me/left_tg_1"),
+                    InlineKeyboardButton(text="TOXIC", url="https://t.me/left_tg_1"),
                  ],
                  [
-                    InlineKeyboardButton(text="ANGAD", url="t.me/Cad_baly"),
-                    InlineKeyboardButton(text="KING", url="https://t.me/ITZ_RAISTAR"),
+                    InlineKeyboardButton(text="PRINCE", url="https://t.me/left_tg_1"),
+                    InlineKeyboardButton(text="DEMON", url="https://t.me/left_tg_1"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -492,7 +492,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *Florenza*
-                 \nHere is the [🔥Source Code🔥](https://github.com/T5fr0ck5t4r/flozenzabot) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/darkphoenix2601/doreamon-2.0) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
